@@ -8,7 +8,7 @@ Compilers are fundamental to modern computing. They translate human-oriented pro
 
 A Lexical Analyser (or tokenizer) is the first phase in compiler designing. It takes a sequence of characters (like, for example, the code which you write on your IDE) and returns a sequence of tokens. A token is a sequence of characters which represents a unit of information in the source program. <br />
 
-Then, the Lexical Analyser "sends" the tokens to the Syntatic Analyser (or parser) that checks if the given input is in the correct syntax of the programming language in which the input which has been written. 
+Then, the Lexical Analyser "sends" those tokens to the Syntatic Analyser (or parser) that checks if the given input is in the correct syntax of the programming language in which the input which has been written. 
 
 ## A Lexical Analyser for a Calculator
 The Lexical Analyser implemented takes a simple mathematic expression and returns the tokens present on that same expression, making the job of a potential/possible Syntatic Analyser (parser) much easier.
