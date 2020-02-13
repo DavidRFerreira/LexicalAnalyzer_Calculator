@@ -58,7 +58,7 @@ int main(void)
 		for (i = 0; i <= numTokens; i++)
 		{
 			printf("%s  ", tokens[i]);
-			fprintf(output, "  %s  ", tokens[i]);
+			fprintf(output, "%s  ", tokens[i]);
 		}
 	}
 
@@ -118,7 +118,7 @@ int isItOperator(char n)
 
 
 
-//Verifica se é um INTEGER ou um FLOAT.
+//Verifica se Ã© um INTEGER ou um FLOAT.
 void DFARecognizer(char* exp, char tokens[][nLenghtNameTokens], int *numTokens)
 {
 	
