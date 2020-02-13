@@ -23,11 +23,11 @@ input.txt <br />
 
 <br />
 output.txt <br />
-------------------------------------------------------
-INPUT EXPRESSION: 123.43 + 123 * 4
+------------------------------------------------------<br />
+INPUT EXPRESSION: 123.43 + 123 * 4<br />
 
-RECOGNIZED TOKENS: 
-Float    Operator    Integer    Operator    Integer  
+RECOGNIZED TOKENS: <br />
+Float    Operator    Integer    Operator    Integer <br /> 
 
 
 ## Test 2 (input & output)
