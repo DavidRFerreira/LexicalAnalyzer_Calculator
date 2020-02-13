@@ -135,7 +135,7 @@ void DFARecognizer(char* exp, char tokens[][nLenghtNameTokens], int *numTokens)
 											   {-1, -1, -1, -1, -1, -1}, //...
 											   {-1, -1, -1, 4, 5, -1},
 											   {-1, -1, -1, 6, -1, -1},
-											   {-1, -1, 6, -1, -1, -1} };
+											   {-1, -1, -1, 6, -1, -1} };
 	
 
 	//Which element indicates if a state is an acceptance state or not.
