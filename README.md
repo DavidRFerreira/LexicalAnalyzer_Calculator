@@ -16,7 +16,7 @@ The Lexical Analyser implemented takes a simple mathematical expression and retu
 
 Basically, this algorithm returns the tokens present in a given input expression (operator, left parentheses, right parentheses, integer or float). 
 
-## Deterministic Finite Automaton (DFA) and Transition Table Implemented
+## Deterministic Finite Automaton (DFA) and Transitions Table Implemented
 <br />
 
 ![AFD](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/DFA.png)
@@ -28,11 +28,11 @@ Basically, this algorithm returns the tokens present in a given input expression
 
 ## Test 1 (input & output)
 <br />
-**input.txt** <br />
+#### input.txt <br />
 123.43 + 123 * 4 <br />
 <br />
 <br />
-**output.txt** <br />
+#### output.txt <br />
 ------------------------------------------------------<br />
 INPUT EXPRESSION: 123.43 + 123 * 4<br />
 <br />
@@ -61,6 +61,7 @@ RECOGNIZED TOKENS: <br />
 Integer   Operator   Integer   <br />
 
 <br />
-## Further Reading
-Holub, A. (1990). Compiler Design in C. Prentice-Hall.
+<br />
+## Further Reading<br />
+Holub, A. (1990). Compiler Design in C. Prentice-Hall.<br />
 Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
