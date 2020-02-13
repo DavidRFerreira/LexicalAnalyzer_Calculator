@@ -1,0 +1,13 @@
+
+------------------------------------------------------
+INPUT EXPRESSION: (12.1 / 234) -dfd 231.32
+
+
+RECOGNIZED TOKENS: 
+  Left-Parentheses    Float    Operator    Integer    Right-Parentheses    Operator    Invalid    Invalid    Invalid    Float  
+------------------------------------------------------
+INPUT EXPRESSION: 13213 * 123
+
+
+RECOGNIZED TOKENS: 
+  Integer    Operator    Integer  
