@@ -13,10 +13,6 @@ Then, the Lexical Analyser "sends" those tokens to the Syntatic Analyser (or par
 
 <br />
 
-## Further Reading
-Holub, A. (1990). Compiler Design in C. Prentice-Hall.<br />
-Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
-
 ## A Lexical Analyser for a Calculator
 The Lexical Analyser implemented takes a simple mathematical expression and returns the tokens present on that same expression, making the job of a potential/possible Syntatic Analyser (parser) much easier. <br />
 
@@ -67,3 +63,7 @@ RECOGNIZED TOKENS: <br />
 Integer   Operator   Integer   <br />
 
 <br />
+
+## Further Reading
+Holub, A. (1990). Compiler Design in C. Prentice-Hall.<br />
+Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
