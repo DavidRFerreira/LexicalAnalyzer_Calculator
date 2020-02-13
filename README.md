@@ -1,7 +1,7 @@
 # lexicalAnalyzer_Calculator
 
 ## Description
-This is the implementation of a Lexical Analyser for expressions that we would expect from on a simple calculator. For that, I implemented an deterministic finite automaton (DFA) and therefore a transition table using the C language. <br />
+This is an implementation of a Lexical Analyser for expressions that we would expect from a simple calculator. For that, I implemented a deterministic finite automaton (DFA) and therefore a transition table using the C language. <br />
 
 ## Compilers and Lexical Analysers
 Compilers are fundamental to modern computing. They translate human-oriented programming languages into computer-oriented machine languages.<br />
@@ -11,13 +11,24 @@ A Lexical Analyser (or tokenizer) is the first phase in compiler designing. It t
 Then, the Lexical Analyser "sends" those tokens to the Syntatic Analyser (or parser) that checks if the given input is in the correct syntax of the programming language in which the input has been written. 
 
 ## A Lexical Analyser for a Calculator
-The Lexical Analyser implemented takes a simple mathematic expression and returns the tokens present on that same expression, making the job of a potential/possible Syntatic Analyser (parser) much easier.
+The Lexical Analyser implemented takes a simple mathematical expression and returns the tokens present on that same expression, making the job of a potential/possible Syntatic Analyser (parser) much easier. <br />
 
 Basically, this algorithm returns the tokens present in a given input expression (operator, left parentheses, right parentheses, integer or float). 
 
 ## Deterministic Finite Automaton (DFA) and Transition Table Implemented
 
 ## Test 1 (input & output)
+*input.txt*
+123.43 + 123 * 4
+
+<br />
+*output.txt*
+------------------------------------------------------
+INPUT EXPRESSION: 123.43 + 123 * 4
+
+RECOGNIZED TOKENS: 
+Float    Operator    Integer    Operator    Integer  
+
 
 ## Test 2 (input & output)
 
