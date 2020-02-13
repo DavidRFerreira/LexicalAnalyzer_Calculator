@@ -2,6 +2,7 @@
 
 ## Description
 This is an implementation of a Lexical Analyser for expressions that we would expect from a simple calculator. For that, I implemented a deterministic finite automaton (DFA) and therefore a transition table using the C language. <br />
+I used Dev-C++ as the IDE to develop this algorithm.
 
 ## Compilers and Lexical Analysers
 Compilers are fundamental to modern computing. They translate human-oriented programming languages into computer-oriented machine languages.<br />
