@@ -28,7 +28,8 @@ INPUT EXPRESSION: 123.43 + 123 * 4<br />
 <br />
 RECOGNIZED TOKENS: <br />
 Float   Operator   Integer   Operator   Integer <br /> 
-
+<br />
+<br />
 
 ## Test 2 (input & output)
 
@@ -42,8 +43,7 @@ __output.txt__ <br />
 INPUT EXPRESSION: (4321 - 12.2) + dasd423 <br />
 <br />
 RECOGNIZED TOKENS: <br />
-Left-Parentheses   Integer   Operator   Float   Right-Parentheses   Operator   Invalid   Invalid   Invalid   Invalid   Integer <br />   
-<br />
+Left-Parentheses   Integer   Operator   Float   Right-Parentheses   Operator   Invalid   Invalid   Invalid   Invalid   Integer <br />
 ------------------------------------------------------ <br />
 INPUT EXPRESSION: 324 / 2 <br />
 <br />
