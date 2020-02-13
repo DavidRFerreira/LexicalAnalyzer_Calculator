@@ -18,18 +18,35 @@ Basically, this algorithm returns the tokens present in a given input expression
 ## Deterministic Finite Automaton (DFA) and Transition Table Implemented
 
 ## Test 1 (input & output)
-input.txt <br />
+**input.txt** <br />
 123.43 + 123 * 4
 
 <br />
-output.txt <br />
+**output.txt** <br />
 ------------------------------------------------------<br />
 INPUT EXPRESSION: 123.43 + 123 * 4<br />
-
+<br />
 RECOGNIZED TOKENS: <br />
-Float    Operator    Integer    Operator    Integer <br /> 
+Float   Operator   Integer   Operator   Integer <br /> 
 
 
 ## Test 2 (input & output)
 
-## Test 3 (input & output)
+**input.txt** <br />
+(4321 - 12.2) + dasd423 <br />
+324 / 2 <br />
+
+**output.txt** <br />
+------------------------------------------------------
+INPUT EXPRESSION: (4321 - 12.2) + dasd423 <br />
+
+<br />
+RECOGNIZED TOKENS: <br />
+Left-Parentheses   Integer   Operator   Float   Right-Parentheses   Operator   Invalid   Invalid   Invalid   Invalid   Integer <br />   
+
+------------------------------------------------------ <br />
+INPUT EXPRESSION: 324 / 2 <br />
+
+<br />
+RECOGNIZED TOKENS: <br />
+Integer   Operator   Integer   <br />
