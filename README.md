@@ -18,11 +18,11 @@ Basically, this algorithm returns the tokens present in a given input expression
 ## Deterministic Finite Automaton (DFA) and Transition Table Implemented
 
 ## Test 1 (input & output)
-*input.txt*
+input.txt <br />
 123.43 + 123 * 4
 
 <br />
-*output.txt*
+output.txt <br />
 ------------------------------------------------------
 INPUT EXPRESSION: 123.43 + 123 * 4
 
