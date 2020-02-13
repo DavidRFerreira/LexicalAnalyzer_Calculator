@@ -13,7 +13,7 @@ Then, the Lexical Analyser "sends" those tokens to the Syntatic Analyser (or par
 
 <br />
 
-## Description
+## Further Reading
 Holub, A. (1990). Compiler Design in C. Prentice-Hall.<br />
 Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
 
