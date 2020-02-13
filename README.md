@@ -12,7 +12,8 @@ A Lexical Analyser (or tokenizer) is the first phase in compiler designing. It t
 Then, the Lexical Analyser "sends" those tokens to the Syntatic Analyser (or parser) that checks if the given input is in the correct syntax of the programming language in which the input has been written. 
 
 <br />
-## Further Reading
+
+## Description
 Holub, A. (1990). Compiler Design in C. Prentice-Hall.<br />
 Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
 
