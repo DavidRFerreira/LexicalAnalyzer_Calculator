@@ -21,17 +21,18 @@ Basically, this algorithm returns the tokens present in a given input expression
 
 ![AFD](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/DFA.png)
 <br />
+<br />
 ![Transitions Table](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/transitionsTable.png)
 <br />
 <br />
 
 ## Test 1 (input & output)
 <br />
-__input.txt__ <br />
+**input.txt** <br />
 123.43 + 123 * 4 <br />
 <br />
 <br />
-__output.txt__ <br />
+**output.txt** <br />
 ------------------------------------------------------<br />
 INPUT EXPRESSION: 123.43 + 123 * 4<br />
 <br />
@@ -42,12 +43,12 @@ Float   Operator   Integer   Operator   Integer <br />
 
 ## Test 2 (input & output)
 <br />
-__input.txt__ <br />
+**input.txt** <br />
 (4321 - 12.2) + dasd423 <br />
 324 / 2 <br />
 <br />
 <br />
-__output.txt__ <br />
+**output.txt** <br />
 ------------------------------------------------------ <br />
 INPUT EXPRESSION: (4321 - 12.2) + dasd423 <br />
 <br />
@@ -58,3 +59,8 @@ INPUT EXPRESSION: 324 / 2 <br />
 <br />
 RECOGNIZED TOKENS: <br />
 Integer   Operator   Integer   <br />
+
+<br />
+## Further Reading
+Holub, A. (1990). Compiler Design in C. Prentice-Hall.
+Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
