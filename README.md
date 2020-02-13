@@ -17,6 +17,10 @@ Basically, this algorithm returns the tokens present in a given input expression
 
 ## Deterministic Finite Automaton (DFA) and Transition Table Implemented
 
+![AFD](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/DFA.png)
+<br !>
+![Transitions Table](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/transitionsTable.png)
+
 ## Test 1 (input & output)
 __input.txt__ <br />
 123.43 + 123 * 4 <br />
