@@ -28,11 +28,11 @@ Basically, this algorithm returns the tokens present in a given input expression
 
 ## Test 1 (input & output)
 <br />
-#### input.txt <br />
+input.txt <br />
 123.43 + 123 * 4 <br />
 <br />
 <br />
-#### output.txt <br />
+output.txt <br />
 ------------------------------------------------------<br />
 INPUT EXPRESSION: 123.43 + 123 * 4<br />
 <br />
@@ -43,12 +43,12 @@ Float   Operator   Integer   Operator   Integer <br />
 
 ## Test 2 (input & output)
 <br />
-**input.txt** <br />
+input.txt <br />
 (4321 - 12.2) + dasd423 <br />
 324 / 2 <br />
 <br />
 <br />
-**output.txt** <br />
+output.txt <br />
 ------------------------------------------------------ <br />
 INPUT EXPRESSION: (4321 - 12.2) + dasd423 <br />
 <br />
@@ -62,6 +62,6 @@ Integer   Operator   Integer   <br />
 
 <br />
 <br />
-## Further Reading<br />
+## Further Reading <br />
 Holub, A. (1990). Compiler Design in C. Prentice-Hall.<br />
 Fischer, C., & LeBlanc, R. (1991). Crafting a Compiler With C. Pearson.
