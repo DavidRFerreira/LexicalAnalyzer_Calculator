@@ -16,12 +16,16 @@ The Lexical Analyser implemented takes a simple mathematical expression and retu
 Basically, this algorithm returns the tokens present in a given input expression (operator, left parentheses, right parentheses, integer or float). 
 
 ## Deterministic Finite Automaton (DFA) and Transition Table Implemented
+<br />
 
 ![AFD](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/DFA.png)
-<br !>
+<br />
 ![Transitions Table](https://github.com/DavidRFerreira/lexicalAnalyzer_Calculator/blob/master/images/transitionsTable.png)
+<br />
+<br />
 
 ## Test 1 (input & output)
+<br />
 __input.txt__ <br />
 123.43 + 123 * 4 <br />
 <br />
@@ -36,7 +40,7 @@ Float   Operator   Integer   Operator   Integer <br />
 <br />
 
 ## Test 2 (input & output)
-
+<br />
 __input.txt__ <br />
 (4321 - 12.2) + dasd423 <br />
 324 / 2 <br />
